@@ -57,6 +57,9 @@ Post Install:
 1. Once you’ve booted in to macOS on your zBook and you’ve reached the desktop, copy the clover boot loader installer over to your HP zBook boot drive and install it same as you did in the Prep phase above.
 
 2. Copy the EFI.zip from the GitHub repo and paste it over, replacing the EFI folder on zBook Boot drive. 
-Restart and enjoy your new Hackintosh on your HP zBook 15.
+
+3. Change the Serial Number for your new Hackintosh from the one that is included in the config.plist in the downloaded EFI.zip - otherwise, multiple accounts using the same serial number will lock your AppleID. To change the the Serial Number, download 'Clover Configurator' from https://mackie100projects.altervista.org/download-clover-configurator/ and mount the EFI Partiton for your macOS Catalina boot drive. Locate and open the 'config.plist' file in the EFI partiton. On the right-hand memu click on SMBIOS, then on the main pane, under System, click on 'Generate New' next to the serial number field.
+
+4. Restart and enjoy your new Hackintosh on your HP zBook 15.
 
 Enjoy. 
