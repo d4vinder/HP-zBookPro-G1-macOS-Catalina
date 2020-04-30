@@ -30,7 +30,7 @@ Prep:
 
 you will be asked for your password, then hit [Enter]. You will prompted for a ‘y’ confirmation. Wait until the process completes, it takes several minutes.
  
-6. When completed, download clover and install it using the following options; 'Clover for UEFI booting only’ & 'Install Clover in ESP’
+6. When completed, download clover and install it to your catalina installation USB [not the Mac your working on!!] using the following options; 'Clover for UEFI booting only’ & 'Install Clover in ESP’
 
 7. Take the EFI.zip folder downloaded from GitHub, extract it and copy to the EFI mounted partition to where you just installed Clover. Overwrite the existing EFI folder that’s already there
 
