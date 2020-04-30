@@ -20,7 +20,7 @@ Prep:
 
 2. Click find, and then type Disk Utility then click on the 'Disk Utility' app to open it. 
 
-3. Locate the USB stick you just plugged in and format it as 'Mac OS Extended (Journaled), GUID Partition Map'. Give it the ‘Install macOS Catalina’ then hit erase.
+3. Locate the USB stick you just plugged in and format it as 'Mac OS Extended (Journaled), GUID Partition Map'. Give it the name ‘Install macOS Catalina’ then hit erase.
 
 4. Download Catalina on your Mac from the Apple AppStore.
 
