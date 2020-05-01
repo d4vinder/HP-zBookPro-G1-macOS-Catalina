@@ -53,7 +53,13 @@ macOS Catalina Install:
 
 2. Power the laptop on and select 'Install macOS Catalina' from the Clover boot menu. 
 
-3. Using Disk Utility when you reach the installer on the zBook Ensure you’ve formatted the destination drive (the disk you are installing to) in the zBookPro to 'Mac OS Extended (Journaled), GUID Partition Map’, name this macOS Catalina [or whatever you like]. Now, continue to install OSX as you normally would on an Apple Mac navigating through the installation Apple installation process. Your machine will restart a number of times during the install process, this is normal. 
+3. Using Disk Utility when you reach the installer on the zBook Ensure you’ve formatted the destination drive (the disk you are installing to) in the zBookPro using the follwing settings:
+
+- 'Mac OS Extended (Journaled), 
+- GUID Partition Map’, 
+- name this macOS Catalina [or whatever you like]
+
+Now, continue to install OSX as you normally would, navigating through the  Apple installation process. Your machine will restart a number of times during the install process, this is normal. 
 
 Post Catalina Install:
 
