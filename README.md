@@ -33,11 +33,11 @@ USB Installer Prep:
 
 'sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Install \macOS \Catalina —nointeraction’
 
-You will be prompted for your password to the Macintosh, enter this then hit [Enter]. You will prompted for a ‘y’ [yes] confirmation prior to formatting your USB drive. Wait until the process completes, it will take several minutes.
+You will be prompted for your password to the Macintosh, enter this then hit 'Enter'. You will prompted for a ‘y’ confirmation prior to formatting your USB drive. Wait until the process completes, it will take several minutes.
  
 6. When the formatting has completed, download the Clover bootloader and install it to your Catalina Installation USB device **NOT THE MACINTOSH YOU'RE CURRENTLY WORKING ON!!** using the following options; 'Clover for UEFI booting only’ & 'Install Clover in ESP’, leave any default options checked.
 
-7. Take the EFI.zip folder downloaded from GitHub, extract it and copy to the EFI mounted partition to where you just installed Clover. Overwrite or delete the existing EFI folder that’s already there prior to pasting the contents of EFI.zip
+7. Extract the EFI.zip folder downloaded from GitHub. Copy the contents to the root of your boot drive's EFI mounted partition, the same location to where you just installed the Clover bootloader. Overwrite or delete the existing EFI folder that’s already there prior to pasting the contents of EFI.zip
 
 BIOS Prep:
 
@@ -59,13 +59,13 @@ macOS Catalina Install:
 
 - Mac OS Extended (Journaled)
 - GUID Partition Map
-- name this macOS Catalina [or whatever you like]
+- name this macOS Catalina (or whatever your preference is)
 
 Now, continue to install OSX as you normally would, navigating through the  Apple installation process. Your machine will restart a number of times during the install process, this is normal. 
 
 Post Catalina Install:
 
-1. So far, the modified bootloader is only present on the USB, your installation. This means without the USB drive present, your newly installed Catalina will not boot on the laptop without it. Once you’ve booted in to 'macOS Catalina' on your zBook and you’ve reached the desktop, copy the Clover bootloader installer pkg over to your HP zBook 'macOS Catalina' drive and install it same as you did in the USB Prep phase above, this time changing the destination of the install to 'macOS Catalina' [or whatever you named your macOS boot drive].
+1. So far, the modified bootloader is only present on the USB, your installation. This means without the USB drive present, your newly installed Catalina will not boot on the laptop without it. Once you’ve booted in to 'macOS Catalina' on your zBook and you’ve reached the desktop, copy the Clover bootloader installer pkg over to your HP zBook 'macOS Catalina' drive and install it same as you did in the USB Prep phase above, this time changing the destination of the install to 'macOS Catalina' (or whatever you named your macOS boot drive).
 
 2. Copy the EFI.zip from the GitHub repo and paste it over, replacing the EFI folder on zBook Boot drive. 
 
