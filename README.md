@@ -33,9 +33,9 @@ USB Installer Prep:
 
 'sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Install \macOS \Catalina —nointeraction’
 
-You will be prompted for your password to the Macintosh, enter this then hit [Enter]. You will prompted for a ‘y’ confirmation prior to formatting your USB drive. Wait until the process completes, it will take several minutes.
+You will be prompted for your password to the Macintosh, enter this then hit [Enter]. You will prompted for a ‘y’ [yes] confirmation prior to formatting your USB drive. Wait until the process completes, it will take several minutes.
  
-6. When the formatting has completed, download the Clover bootloader and install it to your Catalina Installation USB device [u]NOT THE MACINTOSH YOU'RE CURRENTLY WORKING ON!![/u] using the following options; 'Clover for UEFI booting only’ & 'Install Clover in ESP’, leave any default options checked.
+6. When the formatting has completed, download the Clover bootloader and install it to your Catalina Installation USB device **NOT THE MACINTOSH YOU'RE CURRENTLY WORKING ON!!** using the following options; 'Clover for UEFI booting only’ & 'Install Clover in ESP’, leave any default options checked.
 
 7. Take the EFI.zip folder downloaded from GitHub, extract it and copy to the EFI mounted partition to where you just installed Clover. Overwrite or delete the existing EFI folder that’s already there prior to pasting the contents of EFI.zip
 
