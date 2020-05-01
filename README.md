@@ -32,7 +32,7 @@
 
 5. Open Terminal and type the following command:
 
-***sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Install \macOS \Catalina —nointeraction
+***sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Install \macOS \Catalina —nointeraction***
 
 You will be prompted for your password to the Macintosh, enter this then hit 'Enter'. You will prompted for a ‘y’ confirmation prior to formatting your USB drive. Wait until the process completes, it will take several minutes.
  
