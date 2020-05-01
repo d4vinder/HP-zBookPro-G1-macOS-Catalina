@@ -9,7 +9,7 @@ Things you’ll need:
 
 2. A HP zBookPro G1 laptop
 
-3. Access to an Apple Macintosh to download macOS Catalina from Apple via the AppStore
+3. Access to an Apple Macintosh to download macOS Catalina from Apple via the AppStore https://apps.apple.com/gb/app/macos-catalina/id1466841314?mt=12
 
 4. Clover Bootloader https://github.com/CloverHackyColor/CloverBootloader/releases
 
