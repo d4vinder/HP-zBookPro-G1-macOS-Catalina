@@ -70,12 +70,24 @@ Now, continue to install OSX as you normally would, navigating through the  Appl
 
 So far, the modified bootloader is only present on the USB. This means without the USB drive present in your zBook 15, your newly installed Catalina will not boot on the laptop without it. We must now install clover to create EFI partition on the macOS Catalina boot drive.
 
-1. Once you’ve booted in to 'macOS Catalina' on your zBook and you’ve reached the desktop, copy the Clover bootloader installer pkg over to your HP zBook 'macOS Catalina' drive and install it same as you did in step 6 of the USB Prep phase above, **this time changing the destination of the install to 'macOS Catalina' (or whatever you named your macOS boot drive).
+1. Once you’ve booted in to 'macOS Catalina' on your zBook and you’ve reached the desktop, copy the Clover bootloader installer pkg over to your HP zBook 'macOS Catalina' drive and install it same as you did in step 6 of the USB Prep phase above, **this time changing the destination of the install to 'macOS Catalina' (or whatever you named your macOS boot drive)**.Once completed move on to step 2.
 
-2. Copy the EFI.zip from the GitHub repo and paste it over, replacing the EFI folder on zBook Boot drive. 
+2. Extract the downloaded EFI.zip file from GitHub. 
 
-3. Change the Serial Number for your new Hackintosh from the one that is included in the 'config.plist' file in the downloaded EFI.zip - otherwise, multiple accounts using the same serial number will lock your AppleID. To change the the Serial Number, download 'Clover Configurator' and mount the EFI partition for your macOS Catalina boot drive. Locate and open the 'config.plist' file in the EFI partition. On the right-hand memu click on SMBIOS, then on the main pane, under System, click on 'Generate New' next to the serial number field. Press cmd+S to save the file change in the EFI partition.
+3. Change the Serial Number for your new Hackintosh from the one that is included in the 'config.plist' file in the downloaded EFI.zip. Otherwise, multiple accounts using the same serial number will lock your AppleID. To change the Serial Number;
 
-4. Restart and enjoy your new Hackintosh on your HP zBook 15.
+- Locate and open the 'config.plist' file in the EFI folder.
+- On the right-hand menu, click on 'SMBIOS', then on the main pane, under System, click on 'Generate New' next to the 'serial number' field. 
+- Press cmd+S to save the file change.
 
-Enjoy. 
+###### Now we will copy the modified EFI directory to the macOS Catalina boot drives' EFI partition.
+
+1. Download the 'Clover Configurator' application. Install it to your Applcations directory and open it. 
+
+2. Mount the EFI partition if it's not already mounted) for your 'macOS Catalina' boot drive otherwise skip to step 3.
+
+3. Copy your modified EFI folder (with the serial changed) and paste it over the one that's already there, replacing the EFI folder on zBook boot drive. 
+
+4. Saftely remove your Installer USB. Restart and enjoy your new Hackintosh on your HP zBook 15.
+
+
