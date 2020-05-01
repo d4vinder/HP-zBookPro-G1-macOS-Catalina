@@ -70,7 +70,7 @@ Now, continue to install OSX as you normally would, navigating through the  Appl
 
 So far, the modified bootloader is only present on the USB. This means without the USB drive present in your zBook 15, your newly installed Catalina will not boot on the laptop without it. We must now install clover to create EFI partition on the macOS Catalina boot drive.
 
-1. Once you’ve booted in to 'macOS Catalina' on your zBook and you’ve reached the desktop, copy the Clover bootloader installer pkg over to your HP zBook 'macOS Catalina' desktop and install it to the boot drive, same as you did in step 6 of the USB Prep phase above, **this time changing the destination of the install to 'macOS Catalina'** (or whatever you named your macOS boot drive). Once completed move on to step 2.
+1. Once you’ve booted in to 'macOS Catalina' on your zBook and you’ve reached the desktop, copy the Clover bootloader installer package over to your HP zBook 'macOS Catalina' desktop and install it to the boot drive, same as you did in step 6 of the USB Prep phase above, **this time changing the destination of the install to 'macOS Catalina'** (or whatever you named your macOS boot drive). Once completed move on to step 2.
 
 2. Extract the downloaded EFI.zip file from GitHub. 
 
@@ -82,13 +82,13 @@ So far, the modified bootloader is only present on the USB. This means without t
 
 ###### Now we will copy the modified EFI directory to the macOS Catalina boot drives' EFI partition.
 
-1. Download the 'Clover Configurator' application. Install it to your Applcations directory and open it. 
+1. Download the 'Clover Configurator' application. Install it to your Applications directory and open it. 
 
 2. Mount the EFI partition if it's not already mounted) for your 'macOS Catalina' boot drive otherwise skip to step 3.
 
 3. Copy your modified EFI folder (with the serial changed) and paste it over the one that's already there, replacing the EFI folder on zBook boot drive. 
 
-4. Saftely remove your Installer USB and restart your laptop.
+4. Safety remove your Installer USB and restart your laptop.
 
 Special thanks to Rehabman, the greatest Hackintosher out there, for the original zBook/ProBook build guide I used to get to High-Sierra. 
 
