@@ -1,9 +1,9 @@
 # HP-zBookPro-G1-macOS-Catalina
-Complete EFI for HP zBookPro for macOS Catalina 10.15.4
+## Complete EFI for HP zBookPro for macOS Catalina 10.15.4
 
-ZBookPro Catalina Install Guide
+### ZBookPro Catalina Install Guide
 
-Things you’ll need:
+###### Things you’ll need:
 
 1. A USB drive that is 16GB or greater
 
@@ -17,7 +17,8 @@ Things you’ll need:
 
 5. EFI directory files from GitHub https://github.com/d4vinder/HP-zBookPro-G1-macOS-Catalina/blob/master/EFI.zip?raw=true
 
-USB Installer Prep: 
+###### USB Installer Prep: 
+
 1. Take your USB drive and plug it in to your working Macintosh.
 
 2. In the top right-hand corner, click the 'Find' icon, and then type 'Disk Utility' then click on the 'Disk Utility.app' application to open it. 
@@ -39,7 +40,7 @@ You will be prompted for your password to the Macintosh, enter this then hit 'En
 
 7. Extract the EFI.zip folder downloaded from GitHub. Copy the contents to the root of your boot drive's EFI mounted partition, the same location to where you just installed the Clover bootloader. Overwrite or delete the existing EFI folder that’s already there prior to pasting the contents of EFI.zip
 
-BIOS Prep:
+###### BIOS Prep:
 
 Power the laptop on and install OSX as you normally would on an Apple Mac. Be sure to set the BIOS as follows BIOS settings before you do.
 - To start, set BIOS to defaults.
@@ -49,7 +50,7 @@ Power the laptop on and install OSX as you normally would on an Apple Mac. Be su
 - disable "LAN/WLAN switching", if available
 - disable "Wake on LAN" and "Wake on USB”
 
-macOS Catalina Install:
+###### macOS Catalina Install:
 
 1. Unplug the installer USB drive from the Macintosh and plug it in to the USB 2 port on the rear left of the HP zBook
 
@@ -63,7 +64,7 @@ macOS Catalina Install:
 
 Now, continue to install OSX as you normally would, navigating through the  Apple installation process. Your machine will restart a number of times during the install process, this is normal. 
 
-Post Catalina Install:
+###### Post Catalina Install:
 
 1. So far, the modified bootloader is only present on the USB, your installation. This means without the USB drive present, your newly installed Catalina will not boot on the laptop without it. Once you’ve booted in to 'macOS Catalina' on your zBook and you’ve reached the desktop, copy the Clover bootloader installer pkg over to your HP zBook 'macOS Catalina' drive and install it same as you did in the USB Prep phase above, this time changing the destination of the install to 'macOS Catalina' (or whatever you named your macOS boot drive).
 
