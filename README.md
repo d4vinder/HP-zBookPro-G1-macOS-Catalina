@@ -1,5 +1,5 @@
 # HP-zBookPro-G1-macOS-Catalina
-## Complete EFI for HP zBookPro for macOS Catalina 10.15.5
+## Complete EFI for HP zBookPro for macOS Catalina 10.15.6
 
 ### ZBookPro Catalina Install Guide
 
